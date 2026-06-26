@@ -4,8 +4,8 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 
 load_dotenv()
 
-st.set_page_config(page_title="Vishal AI Agent", page_icon="🤖")
-st.title("🤖 Vishal AI Agent")
+st.set_page_config(page_title="Generative AI Agent", page_icon="🤖")
+st.title("🤖 Generative AI Agent")
 
 @st.cache_resource
 def get_model():
